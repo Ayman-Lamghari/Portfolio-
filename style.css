@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: rgb(22, 19, 38);
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+em{
+  color: #ff9900;
+  font-style: oblique;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ff9900; /* Change to your preferred hover color */
+}
+
+.parallax-section {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parallax-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.8; /* Adjust the overlay opacity */
+}
+
+.content {
+    z-index: 1;
+    justify-content: space-around;
+}
+.content h1 {
+    font-size: 300%;
+    letter-spacing: 30%;
+    color: white;
+}
+#home{
+    background-color: rgb(176,181,184);
+}
+#projects{
+    background-color: rgb(47, 36, 96);
+}
+
+/* More styling for additional sections can be added 
+  -Down here it will be the styling of the content-1 oF
+   the div with the class content*/
+.content-1{
+    padding: 3%;
+    border-radius: 30%;
+    float: left;
+    text-align: center;
+    font-size: larger;
+}   
+.content-2{
+    padding: 5%;
+    border-radius: 20%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+}
+
+/*Here the second maim div in the first parallax*/
+marquee {
+    font-size: 700%;
+    background-color:transparent;
+    color: white;
+}
+
+/*styling the slideshow*/
+.Slide-1 {
+    display: flex;
+    overflow: hidden;
+    text-align: center;
+    text-justify: newspaper;
+}
+.Slide-1 .item {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.Slide-1 img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd; /* Add a border for better visualization */
+    border-radius: 5px;
+}
+.Slide-1 .item-2,
+.Slide-1 .item-3 {
+    display: none; /* Initially hide items 2 and 3 */
+}
+.item{
+    justify-content: space-around;
+}
+.tec{
+    text-align: center;
+}
+.desc{
+    text-align: center;
+    float: left;
+    width: 50%;
+    margin: 3%;
+} 
+
+
+/* Contact Section*/
+.contact-container {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-method {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.contact-icon {
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+.contact-details {
+    font-size: 16px;
+    font-weight: bold;
+}
